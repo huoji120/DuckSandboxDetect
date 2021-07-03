@@ -38,18 +38,21 @@ https://s.threatbook.cn/report/file/18fc971fd8b097331322c0fc815bfba26f8427a15ffb
 
 https://sandbox.freebuf.com/reportDetail?fileSha1=529fc26cc6e8c9ff4158a9b45755279502afdc9b
 均崩溃或者无法继续执行:
-![](https://key08.com/usr/uploads/2021/07/2918362663.png)
+![](https://raw.githubusercontent.com/huoji120/DuckSandboxDetect/main/images/1.png)
 
-![](https://key08.com/usr/uploads/2021/07/315797688.png)
+![](https://raw.githubusercontent.com/huoji120/DuckSandboxDetect/main/images/2.png)
 
 奇安信与VT的沙箱对于cpuid和rdtsc模拟不够好,但没有在icebp指令崩溃:
-![](https://key08.com/usr/uploads/2021/07/1932825589.png)
+![](https://raw.githubusercontent.com/huoji120/DuckSandboxDetect/main/images/3.png)
 
-![](https://key08.com/usr/uploads/2021/07/1626874842.png)
+![](https://raw.githubusercontent.com/huoji120/DuckSandboxDetect/main/images/4.png)
 
 腾讯哈勃表现最好,只有rdtsc指令模拟不够好,其他的均不错
-![](https://key08.com/usr/uploads/2021/07/2370001926.png)
+![](https://raw.githubusercontent.com/huoji120/DuckSandboxDetect/main/images/5.png)
 
 # 暂时测试的结论:
 freebuf = 微步在线 < 奇安信 = VirtusTotal < 腾讯哈勃
 **仅仅代表本次测试结果,不排除测试不严谨导致的问题**
+
+测试结论:
+https://key08.com/index.php/2021/07/03/1222.html
