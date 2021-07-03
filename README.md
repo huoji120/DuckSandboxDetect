@@ -33,7 +33,7 @@ https://s.threatbook.cn/report/file/6d244d4978f8b8b67aa338ee3fef23e30198fc554a3e
 virustotal:
 https://www.virustotal.com/gui/file/fbdbf6716b19de8607064abaf69fb5f157be34b328dd62cbbf0d6f874d9e04d3/behavior/Microsoft%20Sysinternals%20Sysmon
 
-其中,freebuf和微步在线的沙箱均无法分析出icebp指令之后的内容(可能是不支持这个指令),因此我多次测试了几次,
+其中,freebuf和微步在线的沙箱均无法分析出icebp指令之后的内容(可能是不支持这个指令,但是崩溃地点是pushfq,应该是指令模拟的问题~ 得问问做这个沙箱的小哥是怎么回事了),因此我多次测试了几次,
 https://s.threatbook.cn/report/file/18fc971fd8b097331322c0fc815bfba26f8427a15ffb16f34ee869065d3cabc4/?env=win7_sp1_enx64_office2013
 
 https://sandbox.freebuf.com/reportDetail?fileSha1=529fc26cc6e8c9ff4158a9b45755279502afdc9b
